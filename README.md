@@ -2,8 +2,8 @@
 Recognizing Micro-Expression in Video Clip  with Adaptive Key-Frame Mining
 # Purpose
   The existing representation based on various deep learning techniques learned from a full video clip is usually redundant. In addition, methods utilizing the single apex frame of each video clip require expert annotations and sacrifice the temporal dynamics. In our paper, we propose a novel end-to-end deep learning architecture, referred to as adaptive key-frame mining network (AKMNet). Operating on the video clip of micro-expression, AKMNet is able to learn discriminative spatio-temporal representation by combining spatial features of self-learned local key frames and their global-temporal dynamics  
-
-
+# Citation
+  Peng, Min, Chongyang Wang, Yuan Gao, Tao Bi, Tong Chen, Yu Shi, and Xiang-Dong Zhou. "Recognizing Micro-expression in Video Clip with Adaptive Key-frame Mining." arXiv preprint arXiv:2009.09179 (2020).
 
 # Platform and dependencies
 Ubuntu 14.04  Python 3.7  CUDA8.0 CuDNN6.0+  
@@ -71,7 +71,8 @@ pytorch==1.0.0
 | `VGG-11` |Apex frame |0.6667 |0.6235| 0.6277 |
 | `VGG-11` |May-key frame |0.6931 |0.6353 |0.6649  |
 
-* how to use:  
+* how to use:
+  for each LOSO exp:    
   first： set *list_file_train* and *list_file_test* in `main.py` properly, each of them is a list file, contents in file like this:  
   */home/XXX/fold/sub01/EP01_12__alpha15 19 3*  
   *...*  
@@ -80,4 +81,4 @@ pytorch==1.0.0
   third: run `python main.py` in your terminal.  
   
  * 
-If you have questions, post them as GitHub issues.
+  If you have questions, post them in GitHub issues.
