@@ -25,7 +25,6 @@ pytorch==1.0.0
 
 # Experiment
 * Comparison Experiment  
-||
 
 |    *Methods*         |*CASMEI*|*CASMEII*|*SMIC*|*SAMM*|
 |:-----------------:|:--------:|:----------:|:----------:|:----------:|
