@@ -35,6 +35,7 @@ pytorch==1.0.0
 | `efficientnet-b5` |    30M   |    83.3    |
 | `efficientnet-b6` |    43M   |    84.0    |
 | `efficientnet-b7` |    66M   |    84.4    |
+
 |    *Methods*         |*CASMEI*|*CASMEII*|*SMIC*|*SAMM*|
 |:-----------------:|:--------:|:----------:|:----------:|:----------:|
 | # LBP-TOP                     |   0.6618  |   0.3843   |   0.3598  |  0.3899  |
