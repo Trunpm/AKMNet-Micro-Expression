@@ -71,5 +71,12 @@ pytorch==1.0.0
 | `VGG-11` |Apex frame |0.6667 |0.6235| 0.6277 |
 | `VGG-11` |May-key frame |0.6931 |0.6353 |0.6649  |
 
-
+* how to use：
+  first： set *list_file_train* and *list_file_test* in `main.py` properly, each of them is a list file, contents in file like this:  
+  */home/XXX/fold/sub01/EP01_12__alpha15 19 3*  
+  *...*  
+  where */home/XXX/fold/sub01/EP01_12__alpha15* is a fold which contain a image sequence of a micro-expression, 19 is the len of the clips, 3 is the label  
+  second: set *premodel* in `main.py` if you have the pretrained model  
+  third: run `python main.py` in your terminal.  
+  
 
