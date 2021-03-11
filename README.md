@@ -28,20 +28,7 @@ pytorch==1.0.0
 Table_III RECOGNITION RESULTS (%) ON CASME I/II, SMIC, AND SAMM DATASETS IN THE COMPARISON EXPERIMENT
 |    *Methods*         |*CASMEI*|*CASMEII*|*SMIC*|*SAMM*|
 |:-----------------:|:--------:|:----------:|:----------:|:----------:| 
-| # LBP-TOP                     |   0.6618  |   0.3843   |   0.3598  |  0.3899  |  
-| # LBP-SIP                    |   0.6026  |   0.4784   |   0.3842  |  0.5220  |  
-| # STCLQP                     |   0.6349  |   0.5922   |   0.5366  |  0.5283  |  
-| # HIGO                       |   0.5781  |   0.5137   |   0.3720  |  0.4465  |  
-| # FHOFO                      |   0.6720  |   0.6471   |   0.5366  |  0.6038  |  
-| # MDMO                       |   0.6825  |   0.6314   |   0.5793  |  0.6164  |  
-|------------------------------|-----------|------------|-----------|----------|  
-| # Macro2Micro                |   0.6772  |   0.6078   |     -     |  0.6436  |  
-| # MicroAttention             |   0.6825  |   0.6431   |     -     |  0.6489  |  
-| # ATNet                      |   0.6720  |   0.6039   |     -     |  0.6543  |  
-| # STSTNet                    |   0.6349  |   0.5529   |   0.5488  |  0.6289  |  
-| # STRCN-G                    |   0.7090  |   0.6039   |   0.6280  |  0.6478  |  
-|------------------------------|-----------|------------|-----------|----------|  
-| # **AKMNet**                 |**0.7566** |**0.6706**  |**0.7256** |**0.7170**|  
+ 
 
 * Justification of the Adaptive Key-Frame Mining Module
   ![image](https://github.com/Trunpm/AKMNet-Micro-Expression/blob/main/docs/Table_IV.jpg) 
