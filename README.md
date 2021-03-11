@@ -27,7 +27,7 @@ pytorch==1.0.0
 * Comparison Experiment  
 Table_III RECOGNITION RESULTS (%) ON CASME I/II, SMIC, AND SAMM DATASETS IN THE COMPARISON EXPERIMENT
 |    *Methods*         |*CASMEI*|*CASMEII*|*SMIC*|*SAMM*|
-|:-----------------:|:--------:|:----------:|:----------:|:----------:|
+|:-----------------:|:--------:|:----------:|:----------:|:----------:| 
 | # LBP-TOP                     |   0.6618  |   0.3843   |   0.3598  |  0.3899  |  
 | # LBP-SIP                    |   0.6026  |   0.4784   |   0.3842  |  0.5220  |  
 | # STCLQP                     |   0.6349  |   0.5922   |   0.5366  |  0.5283  |  
