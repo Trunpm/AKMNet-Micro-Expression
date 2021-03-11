@@ -68,8 +68,8 @@ pytorch==1.0.0
 
 |    *Methods*         |*CASMEI*|*CASMEII*|*SMIC*|*SAMM*|
 |:-----------------:|:--------:|:----------:|:----------:|:----------:|
-| `Resnet18` |Apex frame 0.6772 0.6078 0.6436  |
-| `Resnet18` |Max-key frame 0.6825 0.6392 0.6486  |
-| `VGG-11` |Apex frame 0.6667 0.6235 0.6277 |
-| `VGG-11` |May-key frame 0.6931 0.6353 0.6649  |
+| `Resnet18` |Apex frame |0.6772 |0.6078 |0.6436  |
+| `Resnet18` |Max-key frame |0.6825| 0.6392| 0.6486  |
+| `VGG-11` |Apex frame |0.6667 |0.6235| 0.6277 |
+| `VGG-11` |May-key frame |0.6931 |0.6353 |0.6649  |
 
