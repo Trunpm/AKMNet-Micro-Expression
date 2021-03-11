@@ -22,28 +22,28 @@ pytorch==1.0.0
 
 # Method
 <div align="center">
-  <img src="docs/module.gif" width="800px"/><br>
+  <img src="docs/module.jpg" width="800px"/><br>
     adaptive key-frame mining module
 </div>
 
 # Experiment
 * Comparison Experiment
   <div align="center">
-  <img src="docs/Table_III.gif" width="800px"/><br>
+  <img src="docs/Table_III.jpg" width="800px"/><br>
     RECOGNITION RESULTS (%) ON CASME I/II, SMIC, AND SAMM DATASETS IN THE COMPARISON EXPERIMENT
   </div>
 * Justification of the Adaptive Key-Frame Mining Module
   <div align="center">
-  <img src="docs/Table_IV.gif" width="800px"/><br>
+  <img src="docs/Table_IV.jpg" width="800px"/><br>
     RECOGNITION RESULTS (%) ON CASME I/II, SMIC, AND SAMM DATASETS IN THE COMPARISON EXPERIMENT
   </div>
 * Ablation Experiment
   <div align="center">
-  <img src="docs/Table_V.gif" width="800px"/><br>
+  <img src="docs/Table_V.jpg" width="800px"/><br>
      RECOGNITION RESULTS (%) ON CASME I/II, SMIC, AND SAMM DATASETS IN THE ABLATION EXPERIMENT
   </div>
 * Annotated Apex Frame VS ‘Most Informative’ Frame
   <div align="center">
-  <img src="docs/Table_VII.gif" width="800px"/><br>
+  <img src="docs/Table_VII.jpg" width="800px"/><br>
      RECOGNITION RESULTS (%) OF MODELS WITH INPUT OF APEX  FRAMES AND MAX-KEY FRAMES, RESPECTIVELY
   </div>
