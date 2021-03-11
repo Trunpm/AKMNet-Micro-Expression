@@ -59,13 +59,10 @@ pytorch==1.0.0
 
 |    *Methods*         |*CASMEI*|*CASMEII*|*SMIC*|*SAMM*|
 |:-----------------:|:--------:|:----------:|:----------:|:----------:|
-| # `AKMNetva-all`     |   0.6618  |   0.3843   |   0.3598  |  0.3899  |
-| # `AKMNetva-random` |0.6138 |0.6118 |0.5427 |0.6289  |
-| # `AKMNetva-norm16` |0.6667 |0.6314 |0.5976 |0.6604  |
-| # `AKMNetva-norm32` |0.6825 |0.6392 |0.6434 |0.6478  |
-| # `AKMNetva-norm64` |0.7090 |0.6392 |0.6463 |0.6164  |
-| # `AKMNetva-norm128` |0.6984 |0.6431 |0.6646 |0.6792  |
-| # `**AKMNet**`      |**0.7566** |**0.6706**  |**0.7256** |**0.7170**|
+| `AKMNet-s12` |0.6984 |0.6392 |0.6463 |0.6667  |
+| `AKMNet-s13` |0.7354 |0.6431 |0.6463 |0.6604  |
+| `AKMNet-s23` |0.7249 |0.6549 |0.6707 |0.6918 |
+| `AKMNet-s123` |0.7566 |0.6706 |0.7256| 0.7170  |
 
 * Annotated Apex Frame VS ‘Most Informative’ Frame
   ![image](https://github.com/Trunpm/AKMNet-Micro-Expression/blob/main/docs/Table_VII.jpg) 
