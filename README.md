@@ -25,7 +25,6 @@ pytorch==1.0.0
 
 # Experiment
 * Comparison Experiment  
-Table_III RECOGNITION RESULTS (%) ON CASME I/II, SMIC, AND SAMM DATASETS IN THE COMPARISON EXPERIMENT  
 |    *Methods*         |*CASMEI*|*CASMEII*|*SMIC*|*SAMM*|
 |:-----------------:|:--------:|:----------:|:----------:|:----------:|
 | # LBP-TOP                     |   0.6618  |   0.3843   |   0.3598  |  0.3899  |
@@ -42,6 +41,7 @@ Table_III RECOGNITION RESULTS (%) ON CASME I/II, SMIC, AND SAMM DATASETS IN THE 
 | # STRCN-G                    |   0.7090  |   0.6039   |   0.6280  |  0.6478  |
 |------------------------------|-----------|------------|-----------|----------|
 | # **AKMNet**                 |**0.7566** |**0.6706**  |**0.7256** |**0.7170**|
+| `efficientnet-b7` |    66M   |    84.4    |
 
 * Justification of the Adaptive Key-Frame Mining Module
   ![image](https://github.com/Trunpm/AKMNet-Micro-Expression/blob/main/docs/Table_IV.jpg) 
