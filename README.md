@@ -64,7 +64,12 @@ pytorch==1.0.0
 | `AKMNet-s23` |0.7249 |0.6549 |0.6707 |0.6918 |
 | `AKMNet-s123` |0.7566 |0.6706 |0.7256| 0.7170  |
 
-* Annotated Apex Frame VS ‘Most Informative’ Frame
-  ![image](https://github.com/Trunpm/AKMNet-Micro-Expression/blob/main/docs/Table_VII.jpg) 
-  RECOGNITION RESULTS (%) OF MODELS WITH INPUT OF APEX  FRAMES AND MAX-KEY FRAMES, RESPECTIVELY
+* Annotated Apex Frame VS ‘Most Informative’ Frame  
+
+|    *Methods*         |*CASMEI*|*CASMEII*|*SMIC*|*SAMM*|
+|:-----------------:|:--------:|:----------:|:----------:|:----------:|
+| `Resnet18` |Apex frame 0.6772 0.6078 0.6436  |
+| `Resnet18` |Max-key frame 0.6825 0.6392 0.6486  |
+| `VGG-11` |Apex frame 0.6667 0.6235 0.6277 |
+| `VGG-11` |May-key frame 0.6931 0.6353 0.6649  |
 
