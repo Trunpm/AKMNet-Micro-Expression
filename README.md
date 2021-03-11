@@ -21,26 +21,22 @@ pytorch==1.0.0
   In our method, we do not need the frame normalization, the design of all modules in the AKMNet is independent on the length of input video clip  
 
 # Method
-![image](https://github.com/Trunpm/AKMNet-Micro-Expression/edit/main/docs/module.jpg)  
+![image](https://github.com/Trunpm/AKMNet-Micro-Expression/blob/main/docs/module.jpg)  
 
 # Experiment
 * Comparison Experiment
-  <div align="center">
-  <img src="docs/Table_III.jpg" width="800px"/><br>
-    RECOGNITION RESULTS (%) ON CASME I/II, SMIC, AND SAMM DATASETS IN THE COMPARISON EXPERIMENT
-  </div>
+  ![image](https://github.com/Trunpm/AKMNet-Micro-Expression/blob/main/docs/Table_III.jpg)  
+  RECOGNITION RESULTS (%) ON CASME I/II, SMIC, AND SAMM DATASETS IN THE COMPARISON EXPERIMENT
+
 * Justification of the Adaptive Key-Frame Mining Module
-  <div align="center">
-  <img src="docs/Table_IV.jpg" width="800px"/><br>
-    RECOGNITION RESULTS (%) ON CASME I/II, SMIC, AND SAMM DATASETS IN THE COMPARISON EXPERIMENT
-  </div>
+  ![image](https://github.com/Trunpm/AKMNet-Micro-Expression/blob/main/docs/Table_IV.jpg) 
+  RECOGNITION RESULTS (%) ON CASME I/II, SMIC, AND SAMM DATASETS IN THE COMPARISON EXPERIMENT
+
 * Ablation Experiment
-  <div align="center">
-  <img src="docs/Table_V.jpg" width="800px"/><br>
-     RECOGNITION RESULTS (%) ON CASME I/II, SMIC, AND SAMM DATASETS IN THE ABLATION EXPERIMENT
-  </div>
+  ![image](https://github.com/Trunpm/AKMNet-Micro-Expression/blob/main/docs/Table_V.jpg) 
+  RECOGNITION RESULTS (%) ON CASME I/II, SMIC, AND SAMM DATASETS IN THE ABLATION EXPERIMENT
+
 * Annotated Apex Frame VS ‘Most Informative’ Frame
-  <div align="center">
-  <img src="docs/Table_VII.jpg" width="800px"/><br>
-     RECOGNITION RESULTS (%) OF MODELS WITH INPUT OF APEX  FRAMES AND MAX-KEY FRAMES, RESPECTIVELY
-  </div>
+  ![image](https://github.com/Trunpm/AKMNet-Micro-Expression/blob/main/docs/Table_VII.jpg) 
+  RECOGNITION RESULTS (%) OF MODELS WITH INPUT OF APEX  FRAMES AND MAX-KEY FRAMES, RESPECTIVELY
+
