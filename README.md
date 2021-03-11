@@ -11,14 +11,14 @@ pytorch==1.0.0
 
 # Data Preparation (option)
 * Download the dataset
-  CASMEI: http://fu.psych.ac.cn/CASME/casme-en.php
+  CASMEI: http://fu.psych.ac.cn/CASME/casme-en.php   
   CASMEII: http://fu.psych.ac.cn/CASME/casme2-en.php  
   SAMM: http://www2.docm.mmu.ac.uk/STAFF/m.yap/dataset.php  
-  SMIC: https://www.oulu.fi/cmvs/node/41319
+  SMIC: https://www.oulu.fi/cmvs/node/41319  
 * preprocessing
-  1.you can also use the data in *cropped* fold to conduct the experiment. For SAMM dataset, the face detect and align method same as the paper *CASME II: An Improved Spontaneous Micro-Expression Database and the Baseline Evaluation*
-  2. for phase-based video magnification method, please ref to http://people.csail.mit.edu/nwadhwa/phase-video/
-  In our method, we do not need the frame normalization, the design of all modules in the AKMNet is independent on the length of input video clip
+  1.you can also use the data in *cropped* fold to conduct the experiment. For SAMM dataset, the face detect and align method same as the paper *CASME II: An Improved Spontaneous Micro-Expression Database and the Baseline Evaluation*  
+  2. for phase-based video magnification method, please ref to http://people.csail.mit.edu/nwadhwa/phase-video/  
+  In our method, we do not need the frame normalization, the design of all modules in the AKMNet is independent on the length of input video clip  
 
 # Method
 <div align="center">
