@@ -1,9 +1,11 @@
-# AKMNet-Micro-Expression
+# AKMNet for Micro-Expression
 Recognizing Micro-Expression in Video Clip  with Adaptive Key-Frame Mining
+
 # Purpose
-  The existing representation based on various deep learning techniques learned from a full video clip is usually redundant. In addition, methods utilizing the single apex frame of each video clip require expert annotations and sacrifice the temporal dynamics. In our paper, we propose a novel end-to-end deep learning architecture, referred to as adaptive key-frame mining network (AKMNet). Operating on the video clip of micro-expression, AKMNet is able to learn discriminative spatio-temporal representation by combining spatial features of self-learned local key frames and their global-temporal dynamics  
+The existing representation based on various deep learning techniques learned from a full video clip is usually redundant. In addition, methods utilizing the single apex frame of each video clip require expert annotations and sacrifice the temporal dynamics. In our paper, we propose a novel end-to-end deep learning architecture, referred to as adaptive key-frame mining network (AKMNet). Operating on the video clip of micro-expression, AKMNet is able to learn discriminative spatio-temporal representation by combining spatial features of self-learned local key frames and their global-temporal dynamics.
+
 # Citation
-  Peng, Min, Chongyang Wang, Yuan Gao, Tao Bi, Tong Chen, Yu Shi, and Xiang-Dong Zhou. "Recognizing Micro-expression in Video Clip with Adaptive Key-frame Mining." arXiv preprint arXiv:2009.09179 (2020).
+Peng, Min, Chongyang Wang, Yuan Gao, Tao Bi, Tong Chen, Yu Shi, and Xiang-Dong Zhou. "[Recognizing Micro-expression in Video Clip with Adaptive Key-frame Mining](https://arxiv.org/abs/2009.09179)", arXiv preprint arXiv:2009.09179 (2020).
 
 # Platform and dependencies
 Ubuntu 14.04  Python 3.7  CUDA8.0 CuDNN6.0+  
